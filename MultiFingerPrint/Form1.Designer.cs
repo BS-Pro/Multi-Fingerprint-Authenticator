@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(856, 422);
             this.Name = "Form1";
             this.Text = "Multi-Fingerprint Authenticator";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
